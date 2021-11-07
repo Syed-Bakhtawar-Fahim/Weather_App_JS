@@ -11,3 +11,4 @@ function getWeather() {
         document.getElementById("result").innerHTML = `The Temperature Of ${cityName} ` + response.data.main.temp;
     })
 }
+window.addEventListener("contextmenu", (e) => e.preventDefault())
